@@ -1,34 +1,138 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+    <img src="https://socialify.git.ci/niloysikdar/CFI-JGEC/image?description=1&descriptionEditable=Official%20website%20for%20%22Centre%20For%20Innovation%2C%20JGEC%22&font=Raleway&forks=1&issues=1&language=1&name=1&owner=1&pattern=Charlie%20Brown&pulls=1&stargazers=1&theme=Dark" alt="Logo" width="75%">
+
+  <h1 align="center">CFI JGEC</h1>
+
+  <h3 align="center">
+    Official website for "Centre For Innovation, JGEC"
+    <br />
+    <br />
+    <a href="">View Demo</a>
+    ·
+    <a href="https://github.com/niloysikdar/CFI-JGEC/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/niloysikdar/CFI-JGEC/issues">Request Feature</a>
+  </h3>
+</p>
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contributors">Contributors</a></li>
+  </ol>
+</details>
+
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+
+Official website for "Centre For Innovation, JGEC"
+
+### Built With
+
+- [React](https://reactjs.org)
+- [Next.js](https://nextjs.org)
+- [TypeScript](https://www.typescriptlang.org)
+
+<!-- GETTING STARTED -->
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running follow these simple steps.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**_We strictly use [yarn](https://yarnpkg.com/) for managing the packages/dependencies. You need to install [yarn](https://yarnpkg.com/) to successfully run this project locally._**
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- yarn
+  ```sh
+  npm install -g yarn
+  ```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Installation
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. Fork the project first
 
-## Learn More
+2. Clone the forked repo
+   ```sh
+   git clone https://github.com/<your_name>/CFI-JGEC.git
+   ```
+3. In the project directory, install the packages using
 
-To learn more about Next.js, take a look at the following resources:
+   ```sh
+   yarn
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   or
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```sh
+   yarn install
+   ```
 
-## Deploy on Vercel
+4. Run the app in the development mode using
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```sh
+   yarn start
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+   The page will reload if you make edits.\
+    You will also see any lint errors in the console.
+
+<!-- ROADMAP -->
+
+## Roadmap
+
+See the [open issues](https://github.com/niloysikdar/CFI-JGEC/issues) for a list of proposed features (and known issues). Feel free to raise new issues.
+
+<!-- CONTRIBUTING -->
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch ( `git checkout -b feature/AmazingFeature` )
+3. Add your Changes ( `git add .` )
+4. Commit your Changes ( `git commit -m 'Add some AmazingFeature'` )
+5. Push to the Branch ( `git push origin feature/AmazingFeature` )
+6. Open a Pull Request
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License. See [`LICENSE`](https://github.com/niloysikdar/CFI-JGEC/blob/main/LICENSE) for more information.
+
+## Contributors
+
+Thanks to these wonderful people ✨✨:
+
+<table>
+	<tr>
+		 <td>
+  <a href="https://github.com/niloysikdar/CFI-JGEC/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=niloysikdar/CFI-JGEC" />
+  </a>
+		</td>
+	</tr>
+</table>
